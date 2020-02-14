@@ -11,7 +11,7 @@ namespace CSharpTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            LabelOutput.Text = "Hello Test2";
+            LabelOutput.Text = "Hello Test";
             LabelOutput.Font.Bold = true;
         }
     }
