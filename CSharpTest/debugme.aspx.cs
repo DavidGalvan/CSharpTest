@@ -16,7 +16,7 @@ namespace CSharpTest
 
         protected void ButtonCrash_Click(object sender, EventArgs e)
         {
-            int Denominator = 0;
+            int Denominator = 2;
             LabelResult.Text = (10 / Denominator).ToString();
         }
     }

@@ -11,6 +11,8 @@ namespace CSharpTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Page.Response.Write("Hello World");
+            Page.Response.End();
 
         }
     }
