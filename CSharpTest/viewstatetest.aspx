@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:Label ID="LabelText" runat="server" 
-            Text="Unchanged Text"></asp:Label>
+            Text="Unchanged Text" EnableViewState="False"></asp:Label>
     </div>
     <div>
         <asp:Button ID="ButtonChangeText" runat="server" Text="Change Text" 
