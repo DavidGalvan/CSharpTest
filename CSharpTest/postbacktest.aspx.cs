@@ -11,6 +11,7 @@ namespace CSharpTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            LabelIsPostBack.Text = Page.IsPostBack.ToString();
 
         }
     }

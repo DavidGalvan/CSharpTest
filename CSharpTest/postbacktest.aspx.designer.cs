@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSharpTest {
-    
-    
-    public partial class postbacktest {
-        
+namespace CSharpTest
+{
+
+
+    public partial class postbacktest
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace CSharpTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// LabelIsPostBack control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace CSharpTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelIsPostBack;
-        
+
         /// <summary>
         /// DropDownListPostBack control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace CSharpTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownListPostBack;
-        
+
         /// <summary>
         /// CheckBoxPostBack control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace CSharpTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox CheckBoxPostBack;
-        
+
         /// <summary>
         /// ButtonPostBack control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace CSharpTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonPostBack;
-        
+
         /// <summary>
         /// LabelResult control.
         /// </summary>

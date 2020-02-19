@@ -12,7 +12,7 @@
         <asp:Label ID="LabelIsPostBack" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>
     </div>
     <div>
-        <asp:DropDownList ID="DropDownListPostBack" runat="server">
+        <asp:DropDownList ID="DropDownListPostBack" runat="server" AutoPostBack="True">
             <asp:ListItem>Yes</asp:ListItem>
             <asp:ListItem>No</asp:ListItem>
             <asp:ListItem>Maybe</asp:ListItem>
