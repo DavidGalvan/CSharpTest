@@ -14,5 +14,16 @@ namespace CSharpTest
             LabelOutput.Text = "Hello Word!";
             LabelOutput.Font.Bold = true;
         }
+
+        protected void ButtonChangeText_Click(object sender, EventArgs e)
+        {
+            LabelOutput.Text = "Text Changed";
+
+        }
+
+        protected void CalendarSelect_SelectionChanged(object sender, EventArgs e)
+        {
+            LabelOutput.Text = CalendarSelect.SelectedDate.ToString();
+        }
     }
 }

@@ -10,7 +10,9 @@
     <form id="form1" runat="server">
     <div>
         <asp:Label ID="LabelOutput" runat="server" Text="Label"></asp:Label>
+        <asp:Button ID="ButtonChangeText" runat="server" OnClick="ButtonChangeText_Click" Text="Button" />
     </div>
+        <asp:Calendar ID="CalendarSelect" runat="server" OnSelectionChanged="CalendarSelect_SelectionChanged"></asp:Calendar>
     </form>
 </body>
 </html>
