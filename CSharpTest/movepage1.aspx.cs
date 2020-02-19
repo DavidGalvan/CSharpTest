@@ -16,7 +16,7 @@ namespace CSharpTest
 
         protected void ButtonMove_Click(object sender, EventArgs e)
         {
-
+            Page.Server.TransferRequest("movepage2.aspx");
         }
     }
 }
