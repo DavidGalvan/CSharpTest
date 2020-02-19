@@ -11,7 +11,7 @@ namespace CSharpTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LabelReceivedData.Text = Session["Text"].ToString();
         }
     }
 }
