@@ -16,6 +16,8 @@ namespace CSharpTest
 
         protected void ButtonSend_Click(object sender, EventArgs e)
         {
+            //Page.Server.Transfer("passdata2.aspx");
+            Page.Response.Redirect("passdata3.aspx?text=" + TextBoxText.Text);
 
         }
     }
